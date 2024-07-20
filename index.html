@@ -5,39 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pokemon Search App</title>
         <link rel="stylesheet" href="styles.css" />
+        <script
+            src="https://kit.fontawesome.com/ac36ce4a3a.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
         <div id="ds-container">
             <div id="upper-section">
-                <div id="icons-container"></div>
+                <div id="icons-container">
+                    <i class="fa-solid fa-wifi"></i
+                    ><i class="fa-solid fa-plug"></i
+                    ><i class="fa-solid fa-power-off"></i>
+                </div>
                 <div id="left-speaker-container">
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
+                    <div class="speaker-dot" id="speaker-dot-1"></div>
+                    <div class="speaker-dot" id="speaker-dot-2"></div>
+                    <div class="speaker-dot" id="speaker-dot-3"></div>
+                    <div class="speaker-dot" id="speaker-dot-4"></div>
+                    <div class="speaker-dot" id="speaker-dot-5"></div>
+                    <div class="speaker-dot" id="speaker-dot-6"></div>
+                    <div class="speaker-dot" id="speaker-dot-7"></div>
                 </div>
                 <div id="upper-screen-container">
                     <div id="upper-screen"></div>
                 </div>
                 <div id="right-speaker-container">
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
-                    <div class="speaker-dot"></div>
+                    <div class="speaker-dot" id="speaker-dot-1"></div>
+                    <div class="speaker-dot" id="speaker-dot-2"></div>
+                    <div class="speaker-dot" id="speaker-dot-3"></div>
+                    <div class="speaker-dot" id="speaker-dot-4"></div>
+                    <div class="speaker-dot" id="speaker-dot-5"></div>
+                    <div class="speaker-dot" id="speaker-dot-6"></div>
+                    <div class="speaker-dot" id="speaker-dot-7"></div>
                 </div>
             </div>
             <div id="middle-section">
                 <div id="left-divider">
                     <div id="icon-light-container">
-                        <div class="light yellow"></div>
-                        <div class="light green"></div>
-                        <div class="light blue"></div>
+                        <div class="light" id="yellow"></div>
+                        <div class="light" id="green"></div>
+                        <div class="light" id="blue"></div>
                     </div>
                 </div>
                 <div id="middle-divider">
@@ -46,15 +54,26 @@
                 </div>
                 <div id="right-divider"></div>
             </div>
-            <div id="bottom-section">
-                <div id="right-controls">
-                    <div id="arows"></div>
-                    <div id="power"><div id="power-btn"></div></div>
+            <div id="lower-section">
+                <div id="left-controls">
+                    <div id="arrows">
+                        <div class="arrow" id="up-arrow"><div class="vertical-line"></div></div>
+                        <div class="arrow" id="left-arrow"><div class="horizontal-line"></div></div>
+                        <div class="arrow" id="center-arrow"></div>
+                        <div class="arrow" id="right-arrow"><div class="horizontal-line"></div></div>
+                        <div class="arrow" id="bottom-arrow"><div class="vertical-line"></div></div>
+                    </div>
+                    <div id="power">
+                        <p class="btn-text">POWER</p>
+                        <div id="power-btn">
+                            <i class="fa-solid fa-power-off"></i>
+                        </div>
+                    </div>
                 </div>
                 <div id="lower-screen-container">
                     <div id="lower-screen"></div>
                 </div>
-                <div id="left-controls">
+                <div id="right-controls">
                     <div id="xyab-buttons">
                         <div id="x-btn"></div>
                         <div id="y-btn"></div>
@@ -63,9 +82,13 @@
                     </div>
                     <div id="start">
                         <div id="start-btn"></div>
+                        <p class="btn-text">START</p>
+                        
                     </div>
                     <div id="select">
                         <div id="select-btn"></div>
+                        <p class="btn-text">SELECT</p>
+                        
                     </div>
                 </div>
             </div>
