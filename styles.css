@@ -403,3 +403,55 @@ body {
     background: hsl(0, 0%, 90%);
     cursor: pointer;
 }
+
+#upper-screen {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#arrow-left {
+    grid-area: 2 / 1 / 3 / 2;
+    height: 70px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.fa-chevron-left {
+    scale: 5;
+    color: black;
+}
+.fa-chevron-left:hover {
+    color: hsl(0, 0%, 20%);
+}
+.fa-chevron-left:active {
+    color: hsl(0, 0%, 40%);
+}
+
+#arrow-right {
+    grid-area: 2 / 3 / 3 / 4;
+    height: 70px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.fa-chevron-right {
+    scale: 5;
+    color: black;
+}
+.fa-chevron-right:hover {
+    color: hsl(0, 0%, 20%);
+}
+.fa-chevron-right:active {
+    color: hsl(0, 0%, 40%);
+}
+
+#name-container {
+    grid-area: 1 / 1 / 2 / 4;
+    display: grid;
+    
+}
