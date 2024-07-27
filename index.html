@@ -9,7 +9,9 @@
             src="https://kit.fontawesome.com/ac36ce4a3a.js"
             crossorigin="anonymous"
         ></script>
-    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet">
     <body>
         <div id="ds-container">
             <div id="upper-section">
@@ -33,17 +35,30 @@
                             <i class="fa-solid fa-chevron-left"></i>
                         </button>
                         <div id="name-container">
-                            <h2 id="pokemon-name"></h2>
-                            <h2 id="pokemon-id"></h2>
-                            <h3 id="weight"></h3>
-                            <h3 id="height"></h3>
+                            <div id="name-div">
+                                <h2 id="pokemon-name">Fletchinder</h2>
+                                <h2 id="pokemon-id">#32</h2>
+                            </div>
+                            <div id="weight-height-div">
+                                <h5 id="weight">Weight: 100kg</h5>
+                                <h5 id="height">Height: 100cm</h5>
+                            </div>
                         </div>
 
-                        <div id="sprite-container"></div>
+                        <div id="sprite-container">
+                            <img
+                                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+                                alt=""
+                            />
+                        </div>
                         <button id="arrow-right">
                             <i class="fa-solid fa-chevron-right"></i>
                         </button>
-                        <div id="types"></div>
+                        <div id="types">
+                            <span class="type poison">STEEL</span>
+                            <span class="type flying">FLYING</span>
+                            <span class="type steel">STEEL</span>
+                        </div>
                     </div>
                 </div>
                 <div id="right-speaker-container">
@@ -95,7 +110,25 @@
                     </div>
                 </div>
                 <div id="lower-screen-container">
-                    <div id="lower-screen"></div>
+                    <div id="lower-screen">
+                        <div id="search-div">
+                            <input type="text" id="search-input" placeholder="Fletchinder" /><button
+                                id="search-button"
+                            >Search</button>
+                        </div>
+                        <div id="stats">
+                            <h3>Attack:</h3>
+                            <h5>200</h5>
+                            <h3>Defence:</h3>
+                            <h5>120</h5>
+                            <h3>Sp.Attack:</h3>
+                            <h5>120</h5>
+                            <h3>Sp.Defence:</h3>
+                            <h5>120</h5>
+                            <h3>Speed:</h3>
+                            <h5>100</h5>
+                        </div>
+                    </div>
                 </div>
                 <div id="right-controls">
                     <div id="xyab-buttons">
