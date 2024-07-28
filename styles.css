@@ -493,6 +493,7 @@ body {
 #weight-height-div {
     grid-area: 1 / 2 / 3 / 3;
     display: grid;
+    grid-template-rows: repeat(2, 10px 24px);
     align-self: flex-end;
     width: 100px;
     font-size: 0.7rem;
@@ -615,6 +616,8 @@ body {
 }
 
 #stats {
+    display: grid;
+    grid-template-rows: repeat(6, 18px 15px);
     width: 160px;
     height: 216px;
     display: grid;
