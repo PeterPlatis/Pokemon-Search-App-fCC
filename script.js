@@ -46,7 +46,7 @@ const findAndDisplay = async () => {
         types.innerHTML = data.types
             .map(
                 (obj) =>
-                    `<span class="type ${obj.type.name}">${obj.type.name}</span>`
+                    `<span class="type ${obj.type.name}">${obj.type.name.toUpperCase()}</span>`
             )
             .join("");
         
